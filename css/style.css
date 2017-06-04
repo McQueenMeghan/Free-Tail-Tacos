@@ -58,3 +58,52 @@ a{
 .navbar-nav > li > .dropdown-menu {
 	z-index: 9999;
 }
+.droneInfo{
+  width: 100%;
+  background-color: #545760;
+  padding: 2% 0;
+  z-index: -1;
+
+
+}
+.history{
+  text-align: center;
+  margin-top: 2%;
+
+}
+.history > p{
+  text-align: left;
+
+}
+img.tacocopter.img-responsive{
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.rowThree{
+  margin-top: 2%;
+  width: 100%;
+  background-color: #545760;
+  padding: 2% 0;
+  z-index: -1;
+}
+.rowThree h1{
+  text-align: center;
+}
+footer{
+  margin-top: 2%;
+  width: 100%;
+  background-color: #FF4500;
+
+
+}
+footer ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+footer ul a{
+  box-sizing: border-box;
+  padding: 2% .5%;
+
+}
