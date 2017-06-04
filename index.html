@@ -10,12 +10,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
 </head>
 
 <body>
-
-
+<!-- NAVBAR -->
 	<div class="container">
+
 		<nav class="navbar navbar-default">
 			<div class="container">
 				<div class="navbar-header">
@@ -26,10 +28,9 @@
           <span class="icon-bar"></span>
         </button>
 				</div>
-
-				<div class="brand-centered">
-					<a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo.png" alt="Logo"></a>
-				</div>
+        <div class="brand-centered">
+          <a class="navbar-brand" href="#"><img class="logo img-responsive" src="images/logo.png" alt="Logo"></a>
+        </div>
 
 				<div id="navbar9" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-left">
@@ -46,129 +47,123 @@
 			<!--/.container-fluid -->
 		</nav>
   </div>
-  <div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="carousel slide" id="carousel-266848">
-				<ol class="carousel-indicators">
-					<li data-slide-to="0" data-target="#carousel-266848">
-					</li>
-					<li data-slide-to="1" data-target="#carousel-266848" class="active">
-					</li>
-					<li data-slide-to="2" data-target="#carousel-266848">
-					</li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="item">
-<img src="http://placehold.it/1170x300">
-						<div class="carousel-caption">
-							<h4>
-								First Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
-						</div>
-					</div>
-					<div class="item active">
-<img src="http://placehold.it/1170x500">
-						<div class="carousel-caption-override">
-							<h4>
-								Second Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
-
-
-						</div>
-					</div>
-					<div class="item">
-						<img alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg" />
-						<div class="carousel-caption">
-							<h4>
-
-
-								Third Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
-						</div>
-					</div>
-				</div> <a class="left carousel-control" href="#carousel-266848" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-266848" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-			</div>
-		</div>
-	</div>
-</div>
 
 
 
 
 
 <!--BEGIN BODY OF INDEX PAGE-->
-  <div class="container">
-    <div class="droneInfo col-md-12">
-			<div class="col-md-5">
-				<img class="tacocopter img-responsive" src="images/tacocopter.png" />
-			</div>
-			<div class="history col-md-6">
-				<h1>Our History</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+
+
+  <!--Carousel-->
+  <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are creative</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are smart</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are amazing</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="droneInfo col-md-12">
+    <div class="col-md-5">
+      <img class="tacocopter img-responsive" src="images/tacocopter.png" />
+    </div>
+    <div class="history col-md-6">
+      <h1>Our History</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+         aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+	<div class="container-fluid">
+		<div class="rowThree col-md-12">
+			<div class="col-md-4">
+        <h1>Fresh Ingredients</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
           ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
            aliquip ex ea commodo consequat. Duis aute irure dolor
 					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
           qui officia deserunt mollit anim id est laborum.
-				</p>
+        </p>
+			</div>
+			<div class="col-md-4">
+        <h1>Our Mission</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+           aliquip ex ea commodo consequat. Duis aute irure dolor
+					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+          qui officia deserunt mollit anim id est laborum.
+        </p>
+			</div>
+			<div class="col-md-4">
+        <h1>Calendar Events</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+           aliquip ex ea commodo consequat. Duis aute irure dolor
+					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+          qui officia deserunt mollit anim id est laborum.
+        </p>
 			</div>
 		</div>
-  </div>
-
-
-		<div class="container">
-			<div class="rowThree col-md-12">
-				<div class="col-md-4">
-          <h1>Fresh Ingredients</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-             aliquip ex ea commodo consequat. Duis aute irure dolor
-  					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-            qui officia deserunt mollit anim id est laborum.
-          </p>
-				</div>
-				<div class="col-md-4">
-          <h1>Our Mission</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-             aliquip ex ea commodo consequat. Duis aute irure dolor
-  					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-            qui officia deserunt mollit anim id est laborum.
-          </p>
-				</div>
-				<div class="col-md-4">
-          <h1>Calendar Events</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-             aliquip ex ea commodo consequat. Duis aute irure dolor
-  					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-            qui officia deserunt mollit anim id est laborum.
-          </p>
-				</div>
-			</div>
-		</div>
-  <div class="container">
+	</div>
+  <div class="container-fluid">
     <footer>
       <ul>
         <a href="#">
