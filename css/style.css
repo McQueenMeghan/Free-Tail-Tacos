@@ -20,7 +20,24 @@ img.logo.img-responsive {
 }
 
 a {
-	color: #fff;
+	color: #583E2D;
+
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+a:link {
+  color: #583E2D;
+}
+a:visited{
+  color: #583E2D;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #583E2D;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: black;
 }
 
 
@@ -41,14 +58,13 @@ a {
 	border: none;
 }
 
-.nav.navbar-nav.navbar-right {
-	padding-right: 10%;
+
+
+
+
+ul.nav.navbar-nav.navbar-left{
+  padding-left: 0;
 }
-
-
-/*.nav.navbar-nav.navbar-left{
-  padding-left: 10%;
-}*/
 
 .brand-centered .navbar-brand {
 	display: flex;
@@ -79,9 +95,7 @@ a {
 	margin-left: 15px;
 }
 
-.nav.navbar-nav.navbar-right {
-	padding-right: 5%;
-}
+
 
 .navbar-nav>li>.dropdown-menu {
 	z-index: 9999;
@@ -90,6 +104,11 @@ a {
 
 /*CAROUSEL*/
 
+/*Margin for gap between Nav bar and slider*/
+
+/*.carousel{
+  margin-top: 3%;
+}*/
 
 /*Fade*/
 
@@ -283,11 +302,16 @@ img.social.img-responsive{
 @media screen and (min-width: 980px) {
 	.hero {
 		width: 980px;
-	}
+  	}
+
 }
 
 @media screen and (max-width: 640px) {
 	.hero h1 {
 		font-size: 4em;
 	}
+  img.social.img-responsive{
+    margin-top: 2%;
+    width: 10%;
+  }
 }
