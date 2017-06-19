@@ -66,6 +66,10 @@ a:visited{
 ul.nav.navbar-nav.navbar-left{
   padding-left: 0;
 }
+ul.nav.navbar-nav.navbar-right{
+  padding-right: 5%;
+
+}
 
 .brand-centered .navbar-brand {
 	display: flex;
@@ -291,15 +295,26 @@ img.social.img-responsive{
   text-align: center;
 }
 
+/*=============================================================
+                      Contact Us
+=============================================================*/
 
+.contactUs{
+}
+.well.form-horizontal{
+  background-color: #583E2D;
+  border: black;
+}
+legend{
+  color: #fff;
+}
+#success_message{
+  display: none;
+}
 
-/********************************/
-
-
-/*          Media Queries       */
-
-
-/********************************/
+/*=============================================================
+                      Responsive Stuff
+=============================================================*/
 
 @media screen and (min-width: 980px) {
 	.hero {
