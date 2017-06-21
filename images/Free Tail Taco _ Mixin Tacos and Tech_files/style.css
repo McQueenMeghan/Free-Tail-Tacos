@@ -60,10 +60,7 @@ a:visited{
 }
 
 
-p {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 20px;
-}
+
 
 
 ul.nav.navbar-nav.navbar-left{
@@ -244,8 +241,6 @@ ol.carousel-indicators {
 .history {
 	text-align: center;
 	margin-top: 5%;
-	font-size: 18px;
-	
 }
 
 .history>p {
@@ -275,28 +270,6 @@ img.tacocopter.img-responsive {
 	text-align: center;
 }
 
-
-/*Begin About Page*/
-
-.about {
-	width: 100%;
-	height: 320px;
-	text-align: center;
-	margin-top: 50px;
-	background-color: #545760;
-	margin-bottom: 50px;
-
-}
-
-.about > p,h1 {
-	width: 50%;
-	margin: 0 auto;
-	padding-top: 25px;
-
-}
-.about > p {
-	font-size: 18px;
-}
 
 /*FOOTER*/
 
