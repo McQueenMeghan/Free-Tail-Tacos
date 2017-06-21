@@ -1,0 +1,143 @@
+body {
+	background-color: rgb(177, 164, 145);
+	font-family: 'Titillium Web', sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+
+div.container-fluid {
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+img.logo.img-responsive {
+	max-width: 60%;
+	box-shadow: 4px 4px 6px solid #000;
+	z-index: 9999;
+}
+
+a {
+	color: #583E2D;
+
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+a:link {
+  color: #583E2D;
+}
+a:visited{
+  color: #583E2D;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #583E2D;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: black;
+}
+
+
+/*NAVBAR*/
+
+.brand-centered {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.navbar.navbar-default {
+	margin-top: 50px;
+	background-color: rgba(177, 164, 145, .01);
+	border: none;
+}
+
+ul.nav.navbar-nav.navbar-left{
+  padding-left: 0;
+}
+ul.nav.navbar-nav.navbar-right{
+  padding-right: 5%;
+
+}
+
+.brand-centered .navbar-brand {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-toggle {
+	z-index: 1;
+}
+
+.navbar-alignit .navbar-header {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	height: 50px;
+}
+
+.navbar-alignit .navbar-brand {
+	top: 50%;
+	display: block;
+	position: relative;
+	height: auto;
+	transform: translate(0, -50%);
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
+}
+
+/*CANENDAR*/
+
+.month .agenda {
+
+  float: left;
+  border: 1px solid #808080;
+  font-size: 100px;
+  margin: 0 auto;
+  align-items: center;
+}
+/*FOOTER*/
+
+.footer {
+  width: 100%;
+	background-color: #FF4500;
+  display: inline;
+  text-align: center;
+}
+
+.footer ul {
+	list-style-type: none;
+}
+
+.footer ul a {
+	box-sizing: border-box;
+	padding: 2% .5%;
+}
+
+img.social.img-responsive{
+  width: 3%;
+  display: inline;
+  text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+
+  img.social.img-responsive{
+    margin-top: 2%;
+    width: 10%;
+  }
+
+/*  .month {
+    display: none
+  }  */
+}
