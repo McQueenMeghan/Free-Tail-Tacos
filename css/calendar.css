@@ -96,17 +96,7 @@ ul.nav.navbar-nav.navbar-right{
 	z-index: 9999;
 }
 
-/*CANENDAR*/
-
-.month .agenda {
-
-  float: left;
-  border: 1px solid #808080;
-  font-size: 100px;
-  margin: 0 auto;
-  align-items: center;
-	text-align:center;
-}
+/
 /*FOOTER*/
 
 .footer {
@@ -131,12 +121,38 @@ img.social.img-responsive{
   text-align: center;
 }
 
+
+*CANENDAR*/
+
+.month .agenda {
+
+  float: left;
+  border: 1px solid #808080;
+  font-size: 100px;
+  margin: 0 auto;
+  align-items: center;
+	text-align:center;
+}
+
+.agenda{
+	display: none !important;
+}
+
+
 @media screen and (max-width: 780px) {
 
   img.social.img-responsive{
     margin-top: 2%;
     width: 10%;
   }
+
+	.agenda {
+		display: block;
+	}
+
+	.month {
+		display: none;
+	}
 
 /*  .month {
     display: none
