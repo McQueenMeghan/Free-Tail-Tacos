@@ -10,7 +10,7 @@ $(document).ready(function (){
     $('.calandar').css("display:none")
     } else {
 
-        $('.agenda').css("display:block")
+        $('.calandar').css("display:block")
         }
 
 });
