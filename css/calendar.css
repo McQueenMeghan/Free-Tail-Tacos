@@ -14,12 +14,9 @@ img {
 }
 
 img.logo.img-responsive {
-	max-width: 150px !important;
-	display: block;
-  margin: 0 auto;
-
-	box-shadow: 4px 4px 6px solid #000;
-	z-index: 9999;
+    max-width: 150px !important;
+    box-shadow: 4px 4px 6px solid #000;
+    z-index: 9999;
 }
 
 a {
